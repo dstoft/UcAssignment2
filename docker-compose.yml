@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  il:
+    image: dst/uc2
+    container_name: uc2
+    ports:
+      - 5006:80
